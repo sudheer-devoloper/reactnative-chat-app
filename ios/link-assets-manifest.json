@@ -1,0 +1,45 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "App/src/assets/fonts/DMSans-Bold.ttf",
+      "sha1": "e2465f11006633e4e4ac7652b543adfa6f0c26cd"
+    },
+    {
+      "path": "App/src/assets/fonts/DMSans-Medium.ttf",
+      "sha1": "65cb79753017741ff95b1ecd1689d56e96e2edbd"
+    },
+    {
+      "path": "App/src/assets/fonts/DMSans-Regular.ttf",
+      "sha1": "8599ebf95f6cd0694dfc3af43522b535fcbfba6d"
+    },
+    {
+      "path": "App/src/assets/fonts/DMSans-SemiBold.ttf",
+      "sha1": "fa1443d6c5de4532886f152c24840b1d1588a8bc"
+    },
+    {
+      "path": "App/src/assets/fonts/DMSans-ThinItalic.ttf",
+      "sha1": "1c8fd424391ba56c2ce2c49607a8c225ee7b8901"
+    },
+    {
+      "path": "App/src/assets/fonts/DMSans_18pt-ExtraLight.ttf",
+      "sha1": "67cd44f6c46640f00a18b5dcb564601799e794c5"
+    },
+    {
+      "path": "App/src/assets/fonts/DMSans_18pt-Italic.ttf",
+      "sha1": "5cc19d53cfebcd1ff91b3ac47fe0d32d683d3770"
+    },
+    {
+      "path": "App/src/assets/fonts/DMSans_18pt-Thin.ttf",
+      "sha1": "ca41382f922c9d5f1b81e8f8e956a407d32bd631"
+    },
+    {
+      "path": "App/src/assets/fonts/DMSans_18pt-ThinItalic.ttf",
+      "sha1": "08630d9ab0d3ea3b2b8abdf10ada5387526e1095"
+    },
+    {
+      "path": "App/src/assets/fonts/DMSans_36pt-ExtraLightItalic.ttf",
+      "sha1": "7e9431a6264a01b8ddab1f0dfb51b9f831f5cad1"
+    }
+  ]
+}

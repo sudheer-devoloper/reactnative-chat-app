@@ -1,0 +1,71 @@
+# macOS
+.DS_Store
+
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React Native Packager
+*.packager
+*.tmp
+.expo/
+.expo-shared/
+
+# Metro
+metro-cache/
+*.hbc
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/.idea/
+android/.cxx/
+android/local.properties
+
+# iOS
+ios/Pods/
+ios/build/
+ios/DerivedData/
+ios/.idea/
+ios/*.xcodeproj/project.xcworkspace/
+ios/*.xcodeproj/xcuserdata/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Watchman
+.watchmanconfig
+
+# Bundle output
+*.jsbundle
+*.bundle
+
+# Test coverage
+coverage/
+
+# Lint/TS cache
+.eslintcache
+*.tsbuildinfo
+
+# Env files
+.env
+.env.*
+
+# IDE files
+.vscode/
+.idea/
+
+# Misc
+*.swp
+*.lock
+*.log
+*.bak
+*.orig
