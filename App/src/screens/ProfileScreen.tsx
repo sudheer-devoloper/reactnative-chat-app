@@ -39,6 +39,8 @@ const ProfileScreen = ({ navigation, user }: any) => {
         <TextInputFeild value={mobile.toString()} ktype="number-pad" setValue={setMobile} placeHolder='Enter mobile number ( Ex:[0-9] )' style={[styles.textInput, { fontFamily: font }]} />
         <ButtonComponent title='UPDATE' onClick={updateUser} style={[styles.button, { backgroundColor: gradient?.colors[0] }]} buttonTextStyle={[styles.btn, { fontFamily: font }]} />
       </View>
+
+      <ButtonComponent title='LOG OUT' onClick={handleLogout} style={[styles.button, { backgroundColor: gradient?.colors[0] }]} buttonTextStyle={[styles.btn, { fontFamily: font }]} />
     </View>
   );
 }

@@ -8,7 +8,7 @@ import rootReducer, { RootState } from '../reducers';
 const persistConfig: PersistConfig<RootState> = {
   key: 'root',
   storage: AsyncStorage,
-  whitelist: ['theme'], // persist only theme reducer
+  whitelist: ['theme','fcm'], // persist only theme reducer
 };
 
 const persistedReducer = persistReducer<RootState>(persistConfig, rootReducer);

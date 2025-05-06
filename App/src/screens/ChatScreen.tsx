@@ -79,7 +79,7 @@ export default function ChatScreen({ user }: any) {
     return (
       <View style={[styles.messageContainer, isCurrentUser ? styles.right : styles.left]}>
         {showName && <Text style={styles.sender}>{item.sender}</Text>}
-        <LinearGradient colors={isCurrentUser ? gradient?.colors: ["#e4e4e4","#e4e4e4"]} start={start} end={end} style={[styles.bubble, isCurrentUser ? styles.myBubble : styles.otherBubble]}>
+        <LinearGradient colors={isCurrentUser ? gradient?.colors: ["#e4e4e4","#e4e4e4"]} start={start} end={end} style={[styles.bubble,item?.message.length > 25 && {width: "75%"}, isCurrentUser ? styles.myBubble : styles.otherBubble]}>
           <Text style={[{fontFamily:font},isCurrentUser ? styles.myText : styles.otherText]}>{item.message}</Text>
         </LinearGradient>
       </View>

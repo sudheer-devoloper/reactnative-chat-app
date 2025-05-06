@@ -6,6 +6,7 @@ import { API_URL } from "./url";
 interface LoginPayload {
     email: string;
     password: string;
+    fcmToken:string;
 }
 
 interface LoginResponse {

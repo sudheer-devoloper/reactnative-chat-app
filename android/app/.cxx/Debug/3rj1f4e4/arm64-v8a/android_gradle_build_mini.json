@@ -39,9 +39,9 @@
       "abi": "arm64-v8a",
       "output": "/var/www/html/demo-react-native-app/android/app/build/intermediates/cxx/Debug/3rj1f4e4/obj/arm64-v8a/libreact_codegen_safeareacontext.so",
       "runtimeFiles": [
-        "/home/tvisha/.gradle/caches/8.13/transforms/72cde7dc85b5006383f56c98fcfedfa5/transformed/fbjni-0.7.0/prefab/modules/fbjni/libs/android.arm64-v8a/libfbjni.so",
-        "/home/tvisha/.gradle/caches/8.13/transforms/072209afb1c52d43fe8bcfe0160879d7/transformed/react-android-0.79.1-debug/prefab/modules/jsi/libs/android.arm64-v8a/libjsi.so",
-        "/home/tvisha/.gradle/caches/8.13/transforms/072209afb1c52d43fe8bcfe0160879d7/transformed/react-android-0.79.1-debug/prefab/modules/reactnative/libs/android.arm64-v8a/libreactnative.so"
+        "/home/tvisha/.gradle/caches/8.13/transforms/0b061f55bf713daab6875ce1f4aa3a92/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/libs/android.arm64-v8a/libfbjni.so",
+        "/home/tvisha/.gradle/caches/8.13/transforms/a4b5208288dc8b52817600ea83601ecc/transformed/jetified-react-android-0.79.1-debug/prefab/modules/jsi/libs/android.arm64-v8a/libjsi.so",
+        "/home/tvisha/.gradle/caches/8.13/transforms/a4b5208288dc8b52817600ea83601ecc/transformed/jetified-react-android-0.79.1-debug/prefab/modules/reactnative/libs/android.arm64-v8a/libreactnative.so"
       ]
     },
     "react_codegen_rngesturehandler_codegen::@39f233abcd2c728bc6ec": {
@@ -54,9 +54,9 @@
       "abi": "arm64-v8a",
       "output": "/var/www/html/demo-react-native-app/android/app/build/intermediates/cxx/Debug/3rj1f4e4/obj/arm64-v8a/libreact_codegen_rnscreens.so",
       "runtimeFiles": [
-        "/home/tvisha/.gradle/caches/8.13/transforms/072209afb1c52d43fe8bcfe0160879d7/transformed/react-android-0.79.1-debug/prefab/modules/reactnative/libs/android.arm64-v8a/libreactnative.so",
-        "/home/tvisha/.gradle/caches/8.13/transforms/072209afb1c52d43fe8bcfe0160879d7/transformed/react-android-0.79.1-debug/prefab/modules/jsi/libs/android.arm64-v8a/libjsi.so",
-        "/home/tvisha/.gradle/caches/8.13/transforms/72cde7dc85b5006383f56c98fcfedfa5/transformed/fbjni-0.7.0/prefab/modules/fbjni/libs/android.arm64-v8a/libfbjni.so"
+        "/home/tvisha/.gradle/caches/8.13/transforms/a4b5208288dc8b52817600ea83601ecc/transformed/jetified-react-android-0.79.1-debug/prefab/modules/reactnative/libs/android.arm64-v8a/libreactnative.so",
+        "/home/tvisha/.gradle/caches/8.13/transforms/a4b5208288dc8b52817600ea83601ecc/transformed/jetified-react-android-0.79.1-debug/prefab/modules/jsi/libs/android.arm64-v8a/libjsi.so",
+        "/home/tvisha/.gradle/caches/8.13/transforms/0b061f55bf713daab6875ce1f4aa3a92/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/libs/android.arm64-v8a/libfbjni.so"
       ]
     },
     "appmodules::@6890427a1f51a3e7e1df": {
@@ -67,9 +67,9 @@
         "/var/www/html/demo-react-native-app/android/app/build/intermediates/cxx/Debug/3rj1f4e4/obj/arm64-v8a/libreact_codegen_safeareacontext.so",
         "/var/www/html/demo-react-native-app/android/app/build/intermediates/cxx/Debug/3rj1f4e4/obj/arm64-v8a/libreact_codegen_rnscreens.so",
         "/var/www/html/demo-react-native-app/android/app/build/intermediates/cxx/Debug/3rj1f4e4/obj/arm64-v8a/libreact_codegen_rnsvg.so",
-        "/home/tvisha/.gradle/caches/8.13/transforms/72cde7dc85b5006383f56c98fcfedfa5/transformed/fbjni-0.7.0/prefab/modules/fbjni/libs/android.arm64-v8a/libfbjni.so",
-        "/home/tvisha/.gradle/caches/8.13/transforms/072209afb1c52d43fe8bcfe0160879d7/transformed/react-android-0.79.1-debug/prefab/modules/jsi/libs/android.arm64-v8a/libjsi.so",
-        "/home/tvisha/.gradle/caches/8.13/transforms/072209afb1c52d43fe8bcfe0160879d7/transformed/react-android-0.79.1-debug/prefab/modules/reactnative/libs/android.arm64-v8a/libreactnative.so"
+        "/home/tvisha/.gradle/caches/8.13/transforms/0b061f55bf713daab6875ce1f4aa3a92/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/libs/android.arm64-v8a/libfbjni.so",
+        "/home/tvisha/.gradle/caches/8.13/transforms/a4b5208288dc8b52817600ea83601ecc/transformed/jetified-react-android-0.79.1-debug/prefab/modules/jsi/libs/android.arm64-v8a/libjsi.so",
+        "/home/tvisha/.gradle/caches/8.13/transforms/a4b5208288dc8b52817600ea83601ecc/transformed/jetified-react-android-0.79.1-debug/prefab/modules/reactnative/libs/android.arm64-v8a/libreactnative.so"
       ]
     },
     "react_codegen_rnsvg::@4f40eb209d0c0b4a3b65": {
@@ -77,9 +77,9 @@
       "abi": "arm64-v8a",
       "output": "/var/www/html/demo-react-native-app/android/app/build/intermediates/cxx/Debug/3rj1f4e4/obj/arm64-v8a/libreact_codegen_rnsvg.so",
       "runtimeFiles": [
-        "/home/tvisha/.gradle/caches/8.13/transforms/072209afb1c52d43fe8bcfe0160879d7/transformed/react-android-0.79.1-debug/prefab/modules/reactnative/libs/android.arm64-v8a/libreactnative.so",
-        "/home/tvisha/.gradle/caches/8.13/transforms/072209afb1c52d43fe8bcfe0160879d7/transformed/react-android-0.79.1-debug/prefab/modules/jsi/libs/android.arm64-v8a/libjsi.so",
-        "/home/tvisha/.gradle/caches/8.13/transforms/72cde7dc85b5006383f56c98fcfedfa5/transformed/fbjni-0.7.0/prefab/modules/fbjni/libs/android.arm64-v8a/libfbjni.so"
+        "/home/tvisha/.gradle/caches/8.13/transforms/a4b5208288dc8b52817600ea83601ecc/transformed/jetified-react-android-0.79.1-debug/prefab/modules/reactnative/libs/android.arm64-v8a/libreactnative.so",
+        "/home/tvisha/.gradle/caches/8.13/transforms/a4b5208288dc8b52817600ea83601ecc/transformed/jetified-react-android-0.79.1-debug/prefab/modules/jsi/libs/android.arm64-v8a/libjsi.so",
+        "/home/tvisha/.gradle/caches/8.13/transforms/0b061f55bf713daab6875ce1f4aa3a92/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/libs/android.arm64-v8a/libfbjni.so"
       ]
     },
     "react_codegen_rnasyncstorage::@1596841e19ec5b9eeffe": {

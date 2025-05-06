@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, StyleSheet, ImageBackground, StatusBar } from 'react-native';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { loginSuccess } from '../redux/actions/authActions';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import TextInputFeild from '../components/formComponents/TextInputFeild';
@@ -8,6 +8,7 @@ import ButtonComponent from '../components/formComponents/ButtonComponent';
 import { loginApi } from '../../services/login';
 import { setItem } from '../utils/storage';
 import { replace } from '../utils/NavigationService';
+import useFCMToken from '../hooks/useFcmToken';
 
 const bgImage:HTMLImageElement = require('../assets/images/login.jpg') as string;
 
@@ -15,12 +16,13 @@ const LoginScreen = ({ navigation }:Navigation) => {
   const [username, setUsername] = useState<any>();
   const [password, setPassword] = useState<any>();
   const dispatch = useDispatch();
+  const fcmToken = useSelector((state:any) => state.fcm.token);
 
   const handleLogin = async () => {
     try{
         if(username && password){
           const email = username.toLowerCase();
-           const res = await loginApi({email:email,password:password});
+           const res = await loginApi({email:email,password:password,fcmToken:fcmToken});
            dispatch(loginSuccess(res?.data?.user));
            setItem('user',res?.data?.user)
            replace('BottomTabs')

@@ -33,9 +33,9 @@
         "/var/www/html/demo-react-native-app/android/app/build/intermediates/cxx/Debug/3rj1f4e4/obj/x86/libreact_codegen_safeareacontext.so",
         "/var/www/html/demo-react-native-app/android/app/build/intermediates/cxx/Debug/3rj1f4e4/obj/x86/libreact_codegen_rnscreens.so",
         "/var/www/html/demo-react-native-app/android/app/build/intermediates/cxx/Debug/3rj1f4e4/obj/x86/libreact_codegen_rnsvg.so",
-        "/home/tvisha/.gradle/caches/8.13/transforms/72cde7dc85b5006383f56c98fcfedfa5/transformed/fbjni-0.7.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so",
-        "/home/tvisha/.gradle/caches/8.13/transforms/072209afb1c52d43fe8bcfe0160879d7/transformed/react-android-0.79.1-debug/prefab/modules/jsi/libs/android.x86/libjsi.so",
-        "/home/tvisha/.gradle/caches/8.13/transforms/072209afb1c52d43fe8bcfe0160879d7/transformed/react-android-0.79.1-debug/prefab/modules/reactnative/libs/android.x86/libreactnative.so"
+        "/home/tvisha/.gradle/caches/8.13/transforms/0b061f55bf713daab6875ce1f4aa3a92/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so",
+        "/home/tvisha/.gradle/caches/8.13/transforms/a4b5208288dc8b52817600ea83601ecc/transformed/jetified-react-android-0.79.1-debug/prefab/modules/jsi/libs/android.x86/libjsi.so",
+        "/home/tvisha/.gradle/caches/8.13/transforms/a4b5208288dc8b52817600ea83601ecc/transformed/jetified-react-android-0.79.1-debug/prefab/modules/reactnative/libs/android.x86/libreactnative.so"
       ]
     },
     "react_codegen_RNVectorIconsSpec::@479809fae146501fd34d": {
@@ -64,9 +64,9 @@
       "artifactName": "react_codegen_rnscreens",
       "output": "/var/www/html/demo-react-native-app/android/app/build/intermediates/cxx/Debug/3rj1f4e4/obj/x86/libreact_codegen_rnscreens.so",
       "runtimeFiles": [
-        "/home/tvisha/.gradle/caches/8.13/transforms/072209afb1c52d43fe8bcfe0160879d7/transformed/react-android-0.79.1-debug/prefab/modules/reactnative/libs/android.x86/libreactnative.so",
-        "/home/tvisha/.gradle/caches/8.13/transforms/072209afb1c52d43fe8bcfe0160879d7/transformed/react-android-0.79.1-debug/prefab/modules/jsi/libs/android.x86/libjsi.so",
-        "/home/tvisha/.gradle/caches/8.13/transforms/72cde7dc85b5006383f56c98fcfedfa5/transformed/fbjni-0.7.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+        "/home/tvisha/.gradle/caches/8.13/transforms/a4b5208288dc8b52817600ea83601ecc/transformed/jetified-react-android-0.79.1-debug/prefab/modules/reactnative/libs/android.x86/libreactnative.so",
+        "/home/tvisha/.gradle/caches/8.13/transforms/a4b5208288dc8b52817600ea83601ecc/transformed/jetified-react-android-0.79.1-debug/prefab/modules/jsi/libs/android.x86/libjsi.so",
+        "/home/tvisha/.gradle/caches/8.13/transforms/0b061f55bf713daab6875ce1f4aa3a92/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
       ]
     },
     "react_codegen_rnsvg::@4f40eb209d0c0b4a3b65": {
@@ -75,9 +75,9 @@
       "artifactName": "react_codegen_rnsvg",
       "output": "/var/www/html/demo-react-native-app/android/app/build/intermediates/cxx/Debug/3rj1f4e4/obj/x86/libreact_codegen_rnsvg.so",
       "runtimeFiles": [
-        "/home/tvisha/.gradle/caches/8.13/transforms/072209afb1c52d43fe8bcfe0160879d7/transformed/react-android-0.79.1-debug/prefab/modules/reactnative/libs/android.x86/libreactnative.so",
-        "/home/tvisha/.gradle/caches/8.13/transforms/072209afb1c52d43fe8bcfe0160879d7/transformed/react-android-0.79.1-debug/prefab/modules/jsi/libs/android.x86/libjsi.so",
-        "/home/tvisha/.gradle/caches/8.13/transforms/72cde7dc85b5006383f56c98fcfedfa5/transformed/fbjni-0.7.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+        "/home/tvisha/.gradle/caches/8.13/transforms/a4b5208288dc8b52817600ea83601ecc/transformed/jetified-react-android-0.79.1-debug/prefab/modules/reactnative/libs/android.x86/libreactnative.so",
+        "/home/tvisha/.gradle/caches/8.13/transforms/a4b5208288dc8b52817600ea83601ecc/transformed/jetified-react-android-0.79.1-debug/prefab/modules/jsi/libs/android.x86/libjsi.so",
+        "/home/tvisha/.gradle/caches/8.13/transforms/0b061f55bf713daab6875ce1f4aa3a92/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
       ]
     },
     "react_codegen_safeareacontext::@7984cd80db47aa7b952a": {
@@ -86,9 +86,9 @@
       "artifactName": "react_codegen_safeareacontext",
       "output": "/var/www/html/demo-react-native-app/android/app/build/intermediates/cxx/Debug/3rj1f4e4/obj/x86/libreact_codegen_safeareacontext.so",
       "runtimeFiles": [
-        "/home/tvisha/.gradle/caches/8.13/transforms/72cde7dc85b5006383f56c98fcfedfa5/transformed/fbjni-0.7.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so",
-        "/home/tvisha/.gradle/caches/8.13/transforms/072209afb1c52d43fe8bcfe0160879d7/transformed/react-android-0.79.1-debug/prefab/modules/jsi/libs/android.x86/libjsi.so",
-        "/home/tvisha/.gradle/caches/8.13/transforms/072209afb1c52d43fe8bcfe0160879d7/transformed/react-android-0.79.1-debug/prefab/modules/reactnative/libs/android.x86/libreactnative.so"
+        "/home/tvisha/.gradle/caches/8.13/transforms/0b061f55bf713daab6875ce1f4aa3a92/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so",
+        "/home/tvisha/.gradle/caches/8.13/transforms/a4b5208288dc8b52817600ea83601ecc/transformed/jetified-react-android-0.79.1-debug/prefab/modules/jsi/libs/android.x86/libjsi.so",
+        "/home/tvisha/.gradle/caches/8.13/transforms/a4b5208288dc8b52817600ea83601ecc/transformed/jetified-react-android-0.79.1-debug/prefab/modules/reactnative/libs/android.x86/libreactnative.so"
       ]
     }
   },
