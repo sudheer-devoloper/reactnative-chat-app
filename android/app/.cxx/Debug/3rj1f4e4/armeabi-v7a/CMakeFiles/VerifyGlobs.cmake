@@ -37,6 +37,31 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "/var/www/html/demo-react-native-app/android/app/.cxx/Debug/3rj1f4e4/armeabi-v7a/CMakeFiles/cmake.verify_globs")
 endif()
 
+# react_codegen_SRCS at /var/www/html/demo-react-native-app/node_modules/lottie-react-native/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/var/www/html/demo-react-native-app/node_modules/lottie-react-native/android/build/generated/source/codegen/jni/*.cpp")
+set(OLD_GLOB
+  "/var/www/html/demo-react-native-app/node_modules/lottie-react-native/android/build/generated/source/codegen/jni/lottiereactnative-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/var/www/html/demo-react-native-app/android/app/.cxx/Debug/3rj1f4e4/armeabi-v7a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# react_codegen_SRCS at /var/www/html/demo-react-native-app/node_modules/lottie-react-native/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/var/www/html/demo-react-native-app/node_modules/lottie-react-native/android/build/generated/source/codegen/jni/react/renderer/components/lottiereactnative/*.cpp")
+set(OLD_GLOB
+  "/var/www/html/demo-react-native-app/node_modules/lottie-react-native/android/build/generated/source/codegen/jni/react/renderer/components/lottiereactnative/ComponentDescriptors.cpp"
+  "/var/www/html/demo-react-native-app/node_modules/lottie-react-native/android/build/generated/source/codegen/jni/react/renderer/components/lottiereactnative/EventEmitters.cpp"
+  "/var/www/html/demo-react-native-app/node_modules/lottie-react-native/android/build/generated/source/codegen/jni/react/renderer/components/lottiereactnative/Props.cpp"
+  "/var/www/html/demo-react-native-app/node_modules/lottie-react-native/android/build/generated/source/codegen/jni/react/renderer/components/lottiereactnative/ShadowNodes.cpp"
+  "/var/www/html/demo-react-native-app/node_modules/lottie-react-native/android/build/generated/source/codegen/jni/react/renderer/components/lottiereactnative/States.cpp"
+  "/var/www/html/demo-react-native-app/node_modules/lottie-react-native/android/build/generated/source/codegen/jni/react/renderer/components/lottiereactnative/lottiereactnativeJSI-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/var/www/html/demo-react-native-app/android/app/.cxx/Debug/3rj1f4e4/armeabi-v7a/CMakeFiles/cmake.verify_globs")
+endif()
+
 # react_codegen_SRCS at /var/www/html/demo-react-native-app/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/var/www/html/demo-react-native-app/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/*.cpp")
 set(OLD_GLOB
