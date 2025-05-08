@@ -6,9 +6,7 @@ import { navigate } from '../utils/NavigationService';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import LinearGradient from 'react-native-linear-gradient';
 import { useSelector } from 'react-redux';
-
-const start = { x: 0, y: 0 }
-const end = { x: 1, y: 0 }
+import { end, start } from '../utils/constants';
 
 const Header = () => {
     const navigation: any = useNavigation();

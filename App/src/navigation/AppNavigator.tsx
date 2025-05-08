@@ -9,6 +9,7 @@ import BottomTabs from './BottomTabs';
 import ChatScreen from '../screens/ChatScreen';
 import withAuth from '../hoc/withAuth';
 import SettingsScreen from '../screens/SettingsScreen';
+import GalleryScreen from '../screens/GalleryScreen';
 
 const Stack = createStackNavigator();
 
@@ -45,6 +46,7 @@ export default function AppNavigator() {
          <Stack.Screen name="Login" component={LoginScreen} options={{headerShown:false}}/>
          <Stack.Screen name="ChatScreen" component={withAuth(ChatScreen)} options={{headerShown:false}}/>
          <Stack.Screen name="SettingsScreen" component={SettingsScreen} options={{headerShown:false}}/>
+         <Stack.Screen name="GalleryScreen" component={GalleryScreen} options={{headerShown:false}}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

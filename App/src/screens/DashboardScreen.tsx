@@ -1,11 +1,12 @@
 import React, { useEffect, useRef } from 'react';
-import { View, StatusBar, Animated, Dimensions, Text } from 'react-native';
+import { View, StatusBar, Animated, Dimensions, Text, TouchableOpacity } from 'react-native';
 import Header from '../components/Header';
 import Icon from 'react-native-vector-icons/Ionicons';
-import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import MaterialCommunityIcons from 'react-native-vector-icons/FontAwesome';
 import FastImage from 'react-native-fast-image';
 import UserBarChart from './components/UserBarChart';
 import { useSelector } from 'react-redux';
+import { navigate } from '../utils/NavigationService';
 
 
 export default function DashboardScreen({ navigation }: Navigation) {
@@ -57,7 +58,7 @@ export default function DashboardScreen({ navigation }: Navigation) {
               justifyContent: "center"
             }} >
               <Icon name='people-outline' size={45} color={gradient?.colors[0]} />
-              <Text style={{ fontSize: 18, fontFamily:font, color: "#fff" }}>Users</Text>
+              <Text style={{ fontSize: 18, fontFamily: font, color: "#fff" }}>Users</Text>
             </Animated.View>
             <Animated.View style={{
               height: 250,
@@ -85,27 +86,28 @@ export default function DashboardScreen({ navigation }: Navigation) {
             }} >
               <FastImage source={require('../assets/images/homeEnd.jpg')} style={{ height: 250, width: 160, borderRadius: 20 }} resizeMode={FastImage.resizeMode.cover} />
             </Animated.View>
-            <Animated.View style={{
-              height: 160,
-              width: 160,
-              backgroundColor: "rgba(0,0,0,0.2)",
-              borderRadius: 20,
-              marginStart: 10,
-              marginTop: 20,
-              marginEnd: 20,
-              transform: [{ translateY: blocks[3].translateY }],
-              opacity: blocks[3].opacity,
-              alignItems: "center",
-              justifyContent: "center"
-            }} >
-              <MaterialCommunityIcons name="chat-outline" size={50} color={gradient?.colors[0]} />
-              <Text style={{ fontSize: 18, fontFamily:font, color: "#fff" }}>Chats</Text>
-            </Animated.View>
-
+            <TouchableOpacity onPress={() => navigate('GalleryScreen')}>
+              <Animated.View style={{
+                height: 160,
+                width: 160,
+                backgroundColor: "rgba(0,0,0,0.2)",
+                borderRadius: 20,
+                marginStart: 10,
+                marginTop: 20,
+                marginEnd: 20,
+                transform: [{ translateY: blocks[3].translateY }],
+                opacity: blocks[3].opacity,
+                alignItems: "center",
+                justifyContent: "center"
+              }}>
+                <MaterialCommunityIcons name="photo" size={50} color={gradient?.colors[0]} />
+                <Text style={{ fontSize: 18, fontFamily: font, color: "#fff" }}>Gallery</Text>
+              </Animated.View>
+            </TouchableOpacity>
           </View>
 
         </View>
-      
+
         <View style={{ flex: 1 }}>
           <Animated.View style={{
             height: 160,
@@ -120,7 +122,7 @@ export default function DashboardScreen({ navigation }: Navigation) {
             alignItems: "center",
             justifyContent: "center"
           }}>
-             <UserBarChart />
+            <UserBarChart />
           </Animated.View>
 
         </View>
