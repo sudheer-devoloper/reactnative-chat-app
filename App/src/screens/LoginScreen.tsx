@@ -57,7 +57,7 @@ const LoginScreen = () => {
         const res = await loginApi({ email: email, password: password, fcmToken: fcmToken });
         dispatch(loginSuccess(res?.data?.user));
         setItem('user', res?.data?.user)
-        replace('BottomTabs')
+        replace('Drawer')
       } else {
         console.error("Plaese enter all feilds");
       }

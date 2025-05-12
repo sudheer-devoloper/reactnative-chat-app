@@ -46,20 +46,22 @@ export default function DashboardScreen({ navigation }: Navigation) {
       <View style={{ padding: 20, flex: 1 }}>
         <View style={{ flexDirection: "row", justifyContent: "space-between" }}>
           <View style={{ flex: 1 }}>
-            <Animated.View style={{
-              height: 160,
-              width: 160,
-              backgroundColor: "rgba(0,0,0,0.2)",
-              borderRadius: 20,
-              marginEnd: 20,
-              transform: [{ translateY: blocks[0].translateY }],
-              opacity: blocks[0].opacity,
-              alignItems: "center",
-              justifyContent: "center"
-            }} >
-              <Icon name='people-outline' size={45} color={gradient?.colors[0]} />
-              <Text style={{ fontSize: 18, fontFamily: font, color: "#fff" }}>Users</Text>
-            </Animated.View>
+            <TouchableOpacity onPress={() => navigate('SettingsScreen')}>
+              <Animated.View style={{
+                height: 160,
+                width: 160,
+                backgroundColor: "rgba(0,0,0,0.2)",
+                borderRadius: 20,
+                marginEnd: 20,
+                transform: [{ translateY: blocks[0].translateY }],
+                opacity: blocks[0].opacity,
+                alignItems: "center",
+                justifyContent: "center"
+              }} >
+                <Icon name='settings-outline' size={45} color={gradient?.colors[0]} />
+                <Text style={{ fontSize: 18, fontFamily: font, color: "#fff" }}>Settings</Text>
+              </Animated.View>
+            </TouchableOpacity>
             <Animated.View style={{
               height: 250,
               width: 160,

@@ -16,7 +16,7 @@ const Header = () => {
     return (
         <LinearGradient colors={gradient?.colors} start={start} end={end} style={{ height: 75, width: "100%", justifyContent: "center" }}>
             <SafeAreaView style={{ paddingTop: Platform.OS == "android" ? 24 : 0, paddingHorizontal: 15, flexDirection: "row", alignItems: "center", justifyContent: "space-between" }}>
-                <TouchableOpacity onPress={() => navigate('SettingsScreen')}>
+                <TouchableOpacity onPress={() => navigation.toggleDrawer()}>
                     <Icon name="list-outline" size={30} color={"#fff"} />
                 </TouchableOpacity>
                 <TouchableOpacity>
