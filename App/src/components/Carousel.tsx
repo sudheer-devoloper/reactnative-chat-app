@@ -1,5 +1,5 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React, { useState } from 'react'
+import { StyleSheet, View } from 'react-native'
+import React from 'react'
 import ImageViewing from 'react-native-image-viewing';
 import { useSelector } from 'react-redux';
 

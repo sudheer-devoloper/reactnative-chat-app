@@ -64,9 +64,7 @@ const GalleryScreen = () => {
           </View>
         ))}
       </ScrollView>
-      <ImagePickerModal visible={modalVisible} onClose={() => setModalVisible(false)}
-        onImagesPicked={handleImagesPicked}
-      />
+      <ImagePickerModal visible={modalVisible} onClose={() => setModalVisible(false)} onImagesPicked={handleImagesPicked}/>
       <Carousel images={images} currentIndex={currentIndex} viewerVisible={viewerVisible} setViewerVisible={setViewerVisible} />
     </View>
   )
