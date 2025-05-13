@@ -6,6 +6,7 @@ import AppNavigator from './App/src/navigation/AppNavigator';
 import messaging from '@react-native-firebase/messaging';
 import notifee, { AndroidImportance } from '@notifee/react-native';
 import { requestNotificationPermission } from './App/src/utils/notification';
+import useFCMToken from './App/src/hooks/useFcmToken';
 
 const App = () => {
   useEffect(() => {

@@ -9,10 +9,12 @@ import { setItem } from '../helpers/storage';
 import { replace } from '../helpers/NavigationService';
 import LottieView from 'lottie-react-native';
 import { deviceWidth } from '../helpers/constants';
+import useFCMToken from '../hooks/useFcmToken';
 
 const bgImage: HTMLImageElement = require('../assets/images/login.jpg') as string;
 
 const LoginScreen = () => {
+  useFCMToken()
   const [username, setUsername] = useState<any>();
   const [password, setPassword] = useState<any>();
   const dispatch = useDispatch();
