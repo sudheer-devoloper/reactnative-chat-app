@@ -5,6 +5,9 @@ import { StatusBar, View } from 'react-native';
 import { useSelector } from 'react-redux';
 import { FONTS } from '../helpers/fonts';
 import withAuth from '../hoc/withAuth';
+import VirtualisedListing from '../screens/lists/VirtualisedListing';
+import SectionListing from '../screens/lists/SectionListing';
+import FlatListing from '../screens/lists/FlatListing';
 
 const Tab = createMaterialTopTabNavigator();
 
@@ -24,6 +27,7 @@ const MyTabs = () => {
             <Tab.Navigator
                 tabBarPosition="top"
                 screenOptions={{
+                    tabBarScrollEnabled:true,
                     tabBarStyle: {
                         backgroundColor: 'transparent', // Transparent background
                         elevation: 0, // Remove shadow on Android
@@ -36,14 +40,16 @@ const MyTabs = () => {
                     },
                     tabBarLabelStyle: {
                         fontFamily: FONTS.BOLD, // 👈 Replace with your actual font name
-                        fontSize: 14,
+                        fontSize: 15,
                         textTransform: 'none', // Optional: disables uppercase labels
                       },
                 }}
             >
                 <Tab.Screen name="Profile" component={withAuth(ProfileScreen)} />
+                <Tab.Screen name="FlatList" component={FlatListing} />
+                <Tab.Screen name="VirtualisedList" component={VirtualisedListing} />
+                <Tab.Screen name="SectionList" component={SectionListing} />
                 <Tab.Screen name="FAQ'S" component={FaqScreen} />
-                <Tab.Screen name="Test" component={FaqScreen} />
             </Tab.Navigator>
         </View>
     );
