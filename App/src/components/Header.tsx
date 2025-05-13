@@ -2,11 +2,11 @@ import { StyleSheet, Text, View, SafeAreaView, Platform, TouchableOpacity } from
 import React from 'react'
 import Icon from 'react-native-vector-icons/Ionicons';
 import { useNavigation } from '@react-navigation/native';
-import { navigate } from '../utils/NavigationService';
+import { navigate } from '../helpers/NavigationService';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import LinearGradient from 'react-native-linear-gradient';
 import { useSelector } from 'react-redux';
-import { end, start } from '../utils/constants';
+import { end, start } from '../helpers/constants';
 
 const Header = () => {
     const navigation: any = useNavigation();

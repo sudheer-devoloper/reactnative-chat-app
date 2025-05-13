@@ -1,4 +1,4 @@
-import { FONTS } from "../../utils/fonts";
+import { FONTS } from "../../helpers/fonts";
 
 const initialState = {
     font: FONTS.REGULAR,

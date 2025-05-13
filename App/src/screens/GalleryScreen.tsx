@@ -2,10 +2,10 @@ import { Image, SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, Touchable
 import React, { useState } from 'react'
 import { useSelector } from 'react-redux';
 import LinearGradient from 'react-native-linear-gradient';
-import { end, start } from '../utils/constants';
+import { end, start } from '../helpers/constants';
 import Icon from 'react-native-vector-icons/Ionicons';
 import IconM from 'react-native-vector-icons/MaterialCommunityIcons';
-import { goBack } from '../utils/NavigationService';
+import { goBack } from '../helpers/NavigationService';
 import ImagePickerModal from '../components/ImagePickerModal';
 import Carousel from '../components/Carousel';
 

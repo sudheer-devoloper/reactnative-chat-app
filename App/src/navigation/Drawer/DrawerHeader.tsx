@@ -1,13 +1,13 @@
 import { StyleSheet, Text, View, TouchableOpacity, StatusBar } from "react-native";
 import React from "react";
-import { clearStorage } from "../../utils/storage";
+import { clearStorage } from "../../helpers/storage";
 import { useDispatch, useSelector } from "react-redux";
-import { FONTS } from "../../utils/fonts";
+import { FONTS } from "../../helpers/fonts";
 import Icon from "react-native-vector-icons/Ionicons";
 import SocialIcon from "react-native-vector-icons/FontAwesome";
 import { showResponce } from "../../utils/messageResponder";
 import LinearGradient from "react-native-linear-gradient";
-import { navigate } from "../../utils/NavigationService";
+import { navigate } from "../../helpers/NavigationService";
 import { logout } from "../../redux/actions/authActions";
 
 const DrawerHeader = ({ navigation }: Navigation) => {

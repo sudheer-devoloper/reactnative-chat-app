@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text } from 'react-native';
-import { getItem } from '../utils/storage';
-import { replace } from '../utils/NavigationService';
+import { getItem } from '../helpers/storage';
+import { replace } from '../helpers/NavigationService';
 
 export default function withAuth(Component: React.JSX.IntrinsicAttributes | any) {
   return function AuthHOC(props: React.JSX.IntrinsicAttributes) {

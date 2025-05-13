@@ -4,7 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { useSelector } from 'react-redux';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import LoginScreen from '../screens/LoginScreen';
-import { navigationRef } from '../utils/NavigationService';
+import { navigationRef } from '../helpers/NavigationService';
 import BottomTabs from './BottomTabs';
 import ChatScreen from '../screens/ChatScreen';
 import withAuth from '../hoc/withAuth';

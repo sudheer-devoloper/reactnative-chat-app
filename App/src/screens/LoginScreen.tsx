@@ -5,10 +5,10 @@ import { loginSuccess } from '../redux/actions/authActions';
 import TextInputFeild from '../components/formComponents/TextInputFeild';
 import ButtonComponent from '../components/formComponents/ButtonComponent';
 import { loginApi } from '../../services/login';
-import { setItem } from '../utils/storage';
-import { replace } from '../utils/NavigationService';
+import { setItem } from '../helpers/storage';
+import { replace } from '../helpers/NavigationService';
 import LottieView from 'lottie-react-native';
-import { deviceWidth } from '../utils/constants';
+import { deviceWidth } from '../helpers/constants';
 
 const bgImage: HTMLImageElement = require('../assets/images/login.jpg') as string;
 

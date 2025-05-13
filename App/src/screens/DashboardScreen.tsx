@@ -6,7 +6,7 @@ import MaterialCommunityIcons from 'react-native-vector-icons/FontAwesome';
 import FastImage from 'react-native-fast-image';
 import UserBarChart from './components/UserBarChart';
 import { useSelector } from 'react-redux';
-import { navigate } from '../utils/NavigationService';
+import { navigate } from '../helpers/NavigationService';
 
 
 export default function DashboardScreen({ navigation }: Navigation) {

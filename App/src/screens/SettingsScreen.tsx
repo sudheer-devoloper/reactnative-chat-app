@@ -3,8 +3,8 @@ import { View, Button, SafeAreaView, StatusBar, Text, Touchable, TouchableOpacit
 import { useDispatch, useSelector } from 'react-redux';
 import { setFont, setGradient } from '../redux/actions/themeActions';
 import Icon from 'react-native-vector-icons/Ionicons';
-import { FONTS } from '../utils/fonts';
-import { goBack, navigate, navigationRef } from '../utils/NavigationService';
+import { FONTS } from '../helpers/fonts';
+import { goBack, navigate, navigationRef } from '../helpers/NavigationService';
 import LinearGradient from 'react-native-linear-gradient';
 
 const SettingsScreen = () => {

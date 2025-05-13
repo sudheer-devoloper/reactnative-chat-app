@@ -3,7 +3,7 @@ import ProfileScreen from '../screens/ProfileScreen';
 import FaqScreen from '../screens/FaqScreen';
 import { StatusBar, View } from 'react-native';
 import { useSelector } from 'react-redux';
-import { FONTS } from '../utils/fonts';
+import { FONTS } from '../helpers/fonts';
 import withAuth from '../hoc/withAuth';
 
 const Tab = createMaterialTopTabNavigator();

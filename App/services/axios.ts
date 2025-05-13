@@ -1,6 +1,6 @@
 import axios from 'axios';
-import { getItem, removeItem, setItem } from '../src/utils/storage';
-import { replace } from '../src/utils/NavigationService';
+import { getItem, removeItem, setItem } from '../src/helpers/storage';
+import { replace } from '../src/helpers/NavigationService';
 import { API_URL } from './url';
 
 let isRefreshing = false;
