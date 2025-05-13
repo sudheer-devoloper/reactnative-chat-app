@@ -2,9 +2,9 @@ import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import DashboardScreen from '../screens/DashboardScreen';
 import Icon from 'react-native-vector-icons/Ionicons';
-import ProfileScreen from '../screens/ProfileScreen';
 import withAuth from '../hoc/withAuth';
 import { useSelector } from 'react-redux';
+import MyTabs from './TabsScreen';
 
 const Tab = createBottomTabNavigator();
 
@@ -37,7 +37,7 @@ const BottomTabs = () => {
       })}
     >
       <Tab.Screen name="Home" component={DashboardScreen} />
-      <Tab.Screen name="Profile" component={withAuth(ProfileScreen)} />
+      <Tab.Screen name="Profile" component={withAuth(MyTabs)} />
     </Tab.Navigator>
   );
 };

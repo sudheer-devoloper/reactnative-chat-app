@@ -87,6 +87,31 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "/var/www/html/demo-react-native-app/android/app/.cxx/Debug/3rj1f4e4/arm64-v8a/CMakeFiles/cmake.verify_globs")
 endif()
 
+# react_codegen_SRCS at /var/www/html/demo-react-native-app/node_modules/react-native-pager-view/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/var/www/html/demo-react-native-app/node_modules/react-native-pager-view/android/build/generated/source/codegen/jni/*.cpp")
+set(OLD_GLOB
+  "/var/www/html/demo-react-native-app/node_modules/react-native-pager-view/android/build/generated/source/codegen/jni/pagerview-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/var/www/html/demo-react-native-app/android/app/.cxx/Debug/3rj1f4e4/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# react_codegen_SRCS at /var/www/html/demo-react-native-app/node_modules/react-native-pager-view/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/var/www/html/demo-react-native-app/node_modules/react-native-pager-view/android/build/generated/source/codegen/jni/react/renderer/components/pagerview/*.cpp")
+set(OLD_GLOB
+  "/var/www/html/demo-react-native-app/node_modules/react-native-pager-view/android/build/generated/source/codegen/jni/react/renderer/components/pagerview/ComponentDescriptors.cpp"
+  "/var/www/html/demo-react-native-app/node_modules/react-native-pager-view/android/build/generated/source/codegen/jni/react/renderer/components/pagerview/EventEmitters.cpp"
+  "/var/www/html/demo-react-native-app/node_modules/react-native-pager-view/android/build/generated/source/codegen/jni/react/renderer/components/pagerview/Props.cpp"
+  "/var/www/html/demo-react-native-app/node_modules/react-native-pager-view/android/build/generated/source/codegen/jni/react/renderer/components/pagerview/ShadowNodes.cpp"
+  "/var/www/html/demo-react-native-app/node_modules/react-native-pager-view/android/build/generated/source/codegen/jni/react/renderer/components/pagerview/States.cpp"
+  "/var/www/html/demo-react-native-app/node_modules/react-native-pager-view/android/build/generated/source/codegen/jni/react/renderer/components/pagerview/pagerviewJSI-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/var/www/html/demo-react-native-app/android/app/.cxx/Debug/3rj1f4e4/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
 # react_codegen_SRCS at /var/www/html/demo-react-native-app/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/var/www/html/demo-react-native-app/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/*.cpp")
 set(OLD_GLOB
@@ -208,7 +233,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "/var/www/html/demo-react-native-app/android/app/.cxx/Debug/3rj1f4e4/arm64-v8a/CMakeFiles/cmake.verify_globs")
 endif()
 
-# rnsvg_SRCS at /var/www/html/demo-react-native-app/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt:24 (file)
+# rnsvg_SRCS at /var/www/html/demo-react-native-app/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt:25 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/var/www/html/demo-react-native-app/node_modules/react-native-svg/android/src/main/jni/*.cpp")
 set(OLD_GLOB
   "/var/www/html/demo-react-native-app/node_modules/react-native-svg/android/src/main/jni/rnsvg.cpp"
@@ -218,7 +243,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "/var/www/html/demo-react-native-app/android/app/.cxx/Debug/3rj1f4e4/arm64-v8a/CMakeFiles/cmake.verify_globs")
 endif()
 
-# rnsvg_SRCS at /var/www/html/demo-react-native-app/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt:24 (file)
+# rnsvg_SRCS at /var/www/html/demo-react-native-app/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt:25 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/var/www/html/demo-react-native-app/node_modules/react-native-svg/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnsvg/*.cpp")
 set(OLD_GLOB
   "/var/www/html/demo-react-native-app/node_modules/react-native-svg/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnsvg/RNSVGImageShadowNode.cpp"
@@ -231,7 +256,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "/var/www/html/demo-react-native-app/android/app/.cxx/Debug/3rj1f4e4/arm64-v8a/CMakeFiles/cmake.verify_globs")
 endif()
 
-# rnsvg_codegen_SRCS at /var/www/html/demo-react-native-app/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt:25 (file)
+# rnsvg_codegen_SRCS at /var/www/html/demo-react-native-app/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt:26 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/var/www/html/demo-react-native-app/node_modules/react-native-svg/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnsvg/*cpp")
 set(OLD_GLOB
   "/var/www/html/demo-react-native-app/node_modules/react-native-svg/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnsvg/ComponentDescriptors.cpp"

@@ -1,20 +1,23 @@
 import { StyleSheet, Text, View, TouchableOpacity, StatusBar } from "react-native";
 import React from "react";
 import { clearStorage } from "../../utils/storage";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { FONTS } from "../../utils/fonts";
 import Icon from "react-native-vector-icons/Ionicons";
 import SocialIcon from "react-native-vector-icons/FontAwesome";
 import { showResponce } from "../../utils/messageResponder";
 import LinearGradient from "react-native-linear-gradient";
 import { navigate } from "../../utils/NavigationService";
+import { logout } from "../../redux/actions/authActions";
 
 const DrawerHeader = ({ navigation }: Navigation) => {
+      const dispatch = useDispatch();
     const font = useSelector((state: any) => state.theme.font);
     const gradient = useSelector((state: any) => state.theme.gradient);
 
-    const logout = async () => {
+    const handleLogout = async () => {
         try {
+            dispatch(logout());
             await clearStorage()
             navigate("Login");
         } catch (e) {
@@ -43,11 +46,11 @@ const DrawerHeader = ({ navigation }: Navigation) => {
             </TouchableOpacity>
 
             <View style={styles.divider}></View>
-            <TouchableOpacity onPress={() => { navigation.navigate("Profile"); navigation.toggleDrawer(); }}>
+            <TouchableOpacity onPress={() => { navigate("Profile");  }}>
                 <View style={styles.row}><Text style={[styles.name,{fontFamily:font}]}>Profile</Text></View>
             </TouchableOpacity>
 
-            <TouchableOpacity onPress={() => logout()}>
+            <TouchableOpacity onPress={() => handleLogout()}>
                 <View style={styles.row}><Text style={[styles.name,{fontFamily:font}]}>Logout</Text></View>
             </TouchableOpacity>
             <View style={styles.versionContainer}>

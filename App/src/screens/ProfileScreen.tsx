@@ -1,29 +1,20 @@
-import React, { useEffect, useState } from 'react';
-import { View, Text, Button, StatusBar, StyleSheet } from 'react-native';
-import { useSelector, useDispatch } from 'react-redux';
-import { logout } from '../redux/actions/authActions';
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import Header from '../components/Header';
+import React, { useState } from 'react';
+import { View, StatusBar, StyleSheet } from 'react-native';
+import { useSelector } from 'react-redux';
 import ButtonComponent from '../components/formComponents/ButtonComponent';
 import TextInputFeild from '../components/formComponents/TextInputFeild';
-import { FONTS } from '../utils/fonts';
 
-const ProfileScreen = ({ navigation, user }: any) => {
-  const dispatch = useDispatch();
+const ProfileScreen = ({ user }: any) => {
   const gradient = useSelector((state: any) => state.theme.gradient);
   const font = useSelector((state: any) => state.theme.font);
+
+  console.log("user dta====",user);
+  
 
   const [name, setName] = useState<string>(user?.name || "");
   const [email, setEmail] = useState<string>(user?.email || "")
   const [mobile, setMobile] = useState<string>(user?.mobile || "")
   const [editId, setEditId] = useState<string>(user?.id || "")
-
-
-  const handleLogout = async () => {
-    dispatch(logout());
-    await AsyncStorage.removeItem('user');
-    navigation.replace('Login');
-  };
 
   const updateUser = () => {
 
@@ -32,20 +23,18 @@ const ProfileScreen = ({ navigation, user }: any) => {
   return (
     <View style={styles.container}>
       <StatusBar barStyle="dark-content" backgroundColor="#007fe100" translucent />
-      <Header />
+      {/* <Header /> */}
       <View style={styles.formContainer}>
         <TextInputFeild value={name} setValue={setName} placeHolder='Enter name' style={[styles.textInput, { fontFamily: font }]} />
         <TextInputFeild value={email} ktype="email-address" setValue={setEmail} placeHolder='Enter email' style={[styles.textInput, { fontFamily: font }]} />
         <TextInputFeild value={mobile.toString()} ktype="number-pad" setValue={setMobile} placeHolder='Enter mobile number ( Ex:[0-9] )' style={[styles.textInput, { fontFamily: font }]} />
         <ButtonComponent title='UPDATE' onClick={updateUser} style={[styles.button, { backgroundColor: gradient?.colors[0] }]} buttonTextStyle={[styles.btn, { fontFamily: font }]} />
       </View>
-
-      <ButtonComponent title='LOG OUT' onClick={handleLogout} style={[styles.button, { backgroundColor: gradient?.colors[0] }]} buttonTextStyle={[styles.btn, { fontFamily: font }]} />
     </View>
   );
 }
 
-export default ProfileScreen  
+export default ProfileScreen
 
 const styles = StyleSheet.create({
   container: {
@@ -94,7 +83,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#007AFF',
     alignItems: 'center',
     justifyContent: 'center',
-    paddingHorizontal:20,
+    paddingHorizontal: 20,
     marginTop: 15,
   },
   btn: {
