@@ -87,6 +87,31 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "/var/www/html/demo-react-native-app/android/app/.cxx/Debug/3rj1f4e4/x86_64/CMakeFiles/cmake.verify_globs")
 endif()
 
+# react_codegen_SRCS at /var/www/html/demo-react-native-app/node_modules/react-native-maps/android/src/main/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/var/www/html/demo-react-native-app/node_modules/react-native-maps/android/src/main/jni/*.cpp")
+set(OLD_GLOB
+  "/var/www/html/demo-react-native-app/node_modules/react-native-maps/android/src/main/jni/RNMapsSpecs-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/var/www/html/demo-react-native-app/android/app/.cxx/Debug/3rj1f4e4/x86_64/CMakeFiles/cmake.verify_globs")
+endif()
+
+# react_codegen_SRCS at /var/www/html/demo-react-native-app/node_modules/react-native-maps/android/src/main/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/var/www/html/demo-react-native-app/node_modules/react-native-maps/android/src/main/jni/react/renderer/components/RNMapsSpecs/*.cpp")
+set(OLD_GLOB
+  "/var/www/html/demo-react-native-app/node_modules/react-native-maps/android/src/main/jni/react/renderer/components/RNMapsSpecs/ComponentDescriptors.cpp"
+  "/var/www/html/demo-react-native-app/node_modules/react-native-maps/android/src/main/jni/react/renderer/components/RNMapsSpecs/EventEmitters.cpp"
+  "/var/www/html/demo-react-native-app/node_modules/react-native-maps/android/src/main/jni/react/renderer/components/RNMapsSpecs/Props.cpp"
+  "/var/www/html/demo-react-native-app/node_modules/react-native-maps/android/src/main/jni/react/renderer/components/RNMapsSpecs/RNMapsSpecsJSI-generated.cpp"
+  "/var/www/html/demo-react-native-app/node_modules/react-native-maps/android/src/main/jni/react/renderer/components/RNMapsSpecs/ShadowNodes.cpp"
+  "/var/www/html/demo-react-native-app/node_modules/react-native-maps/android/src/main/jni/react/renderer/components/RNMapsSpecs/States.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/var/www/html/demo-react-native-app/android/app/.cxx/Debug/3rj1f4e4/x86_64/CMakeFiles/cmake.verify_globs")
+endif()
+
 # react_codegen_SRCS at /var/www/html/demo-react-native-app/node_modules/react-native-pager-view/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/var/www/html/demo-react-native-app/node_modules/react-native-pager-view/android/build/generated/source/codegen/jni/*.cpp")
 set(OLD_GLOB

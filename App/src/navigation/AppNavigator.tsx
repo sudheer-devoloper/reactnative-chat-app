@@ -11,6 +11,8 @@ import withAuth from '../hoc/withAuth';
 import SettingsScreen from '../screens/SettingsScreen';
 import GalleryScreen from '../screens/GalleryScreen';
 import Drawer from './Drawer/Drawer';
+import LocationSearchScreen from '../screens/maps/LocationSearchScreen';
+import MapSelectionScreen from '../screens/maps/MapSelectionScreen';
 
 const Stack = createStackNavigator();
 
@@ -48,6 +50,8 @@ export default function AppNavigator() {
         <Stack.Screen name="ChatScreen" component={withAuth(ChatScreen)} options={{ headerShown: false }} />
         <Stack.Screen name="SettingsScreen" component={SettingsScreen} options={{ headerShown: false }} />
         <Stack.Screen name="GalleryScreen" component={GalleryScreen} options={{ headerShown: false }} />
+        <Stack.Screen name="Search" component={LocationSearchScreen} options={{ headerShown: false }}/>
+        <Stack.Screen name="Map" component={MapSelectionScreen} options={{ headerShown: false }}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

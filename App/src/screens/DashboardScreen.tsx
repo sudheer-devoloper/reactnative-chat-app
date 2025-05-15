@@ -62,6 +62,7 @@ export default function DashboardScreen({ navigation }: Navigation) {
                 <Text style={{ fontSize: 18, fontFamily: font, color: "#fff" }}>Settings</Text>
               </Animated.View>
             </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigate('Search')}>
             <Animated.View style={{
               height: 250,
               width: 160,
@@ -72,8 +73,9 @@ export default function DashboardScreen({ navigation }: Navigation) {
               transform: [{ translateY: blocks[2].translateY }],
               opacity: blocks[2].opacity,
             }}>
-              <FastImage source={require('../assets/images/homestart.jpg')} style={{ height: 250, width: 160, borderRadius: 20 }} resizeMode={FastImage.resizeMode.cover} />
+              <FastImage source={require('../assets/images/location.jpg')} style={{ height: 250, width: 160, borderRadius: 20 }} resizeMode={FastImage.resizeMode.cover} />
             </Animated.View>
+            </TouchableOpacity>
           </View>
           <View style={{ flex: 1 }}>
             <Animated.View style={{
